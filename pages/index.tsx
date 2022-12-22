@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
-
+console.log('test')
 export default function Home() {
   return (
     <>
@@ -15,7 +15,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        { console.log('test') }
       </main>
     </>
   )

@@ -6,6 +6,9 @@ import Head from 'next/head'
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  console.log('hello')
+  
   return (
     <>
       <Head>
@@ -15,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        ppp
       </main>
     </>
   )
